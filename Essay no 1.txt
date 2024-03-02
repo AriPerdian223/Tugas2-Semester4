@@ -1,0 +1,39 @@
+1. Jelaskan apa yang dimaksud dengan class dan object!
+Jawab :
+• Class
+Class adalah sebuah blueprint atau cetak biru yang mendefinisikan sifat-sifat dan perilaku dari suatu objek. Dalam class, Anda mendefinisikan atribut (variabel) dan metode (fungsi) yang akan dimiliki oleh objek yang dibuat dari class tersebut. Class memberikan struktur dasar untuk objek yang akan dibuat.
+
+Contohnya :
+
+public class Mobil {
+    // Atribut
+    String warna;
+    int tahunProduksi;
+    
+    // Metode
+    void jalankanMobil() {
+        System.out.println("Mobil berjalan.");
+    }
+
+•Object
+
+Object adalah instansi konkret dari sebuah class. Saat Anda membuat objek dari suatu class, Anda membuat salinan dari blueprint tersebut dan memberinya nilai konkret untuk atribut-atribut yang didefinisikan di dalam class tersebut. Objek adalah wujud nyata dari suatu class.
+
+Contohnya :
+
+public static void main(String[] args) {
+        // Membuat objek dari class Mobil
+        Mobil mobil1 = new Mobil();
+        
+        // Mengatur nilai atribut objek
+        mobil1.warna = "Merah";
+        mobil1.tahunProduksi = 2022;
+        
+        // Memanggil metode objek untuk menjalankan mobil
+        mobil1.jalankanMobil();
+        
+        // Menampilkan informasi mobil
+        System.out.println("Warna Mobil: " + mobil1.warna);
+        System.out.println("Tahun Produksi: " + mobil1.tahunProduksi);
+    }
+

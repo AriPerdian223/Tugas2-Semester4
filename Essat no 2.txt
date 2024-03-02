@@ -1,0 +1,49 @@
+2. Sebutkan dan jelaskan jenis-jenis method !
+
+Jawab :
+•	Method Tanpa Kembalian (Void) dan Tanpa Paramater:
+
+void sapa() {
+    System.out.println("Halo, Selamat datang!");
+}
+
+Metode ini tidak mengembalikan nilai (void) dan tidak memerlukan parameter. Digunakan untuk menjalankan aksi tanpa memberikan nilai kembali.
+
+•	Method dengan Kembalian (Return) dan Tanpa Paramater:
+
+int dapatAngkaRandom() {
+    return (int) (Math.random() * 100);
+}
+ 
+Metode ini mengembalikan nilai dan tidak memerlukan parameter. Berguna untuk memberikan hasil kalkulasi atau informasi.
+
+•	Method Tanpa Kembalian (Void) dengan Parameter:
+
+void cetakNama(String nama) {
+    System.out.println("Nama: " + nama);
+}
+ 
+Metode ini tidak mengembalikan nilai (void) tetapi memerlukan satu atau lebih parameter. Digunakan untuk menjalankan aksi dengan data yang diberikan.
+
+•	Method dengan Kembalian (Return) dan Paramater:
+double hitungLuasSegitiga(double alas, double tinggi) {
+    return 0.5 * alas * tinggi;
+}
+ 
+Metode ini mengembalikan nilai dan memerlukan satu atau lebih parameter. Berguna untuk melakukan operasi dengan data yang diberikan dan memberikan hasilnya.
+
+•	Method Statis:
+static void sapaDunia() {
+    System.out.println("Halo, Dunia!");
+}
+ 
+Metode statis adalah metode yang terkait dengan kelas, bukan dengan instansi objek. Mereka dapat dipanggil langsung dari kelas tanpa membuat objek.
+
+•	Method Constructor:
+
+    public Mobil(String warna, int tahunProduksi) {
+    this.warna = warna;
+    this.tahunProduksi = tahunProduksi;
+}
+ 
+Constructor adalah metode khusus yang digunakan untuk menginisialisasi objek saat objek tersebut dibuat. Constructor memiliki nama yang sama dengan nama class.
